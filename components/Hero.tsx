@@ -1,11 +1,5 @@
 import React from 'react'
-import {
-  motion,
-  MotionValue,
-  useScroll,
-  useTransform,
-  Variants,
-} from 'framer-motion'
+import { motion, Variants } from 'framer-motion'
 
 const cardVariants: Variants = {
   offscreen: {
