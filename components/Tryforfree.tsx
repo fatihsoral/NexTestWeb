@@ -26,7 +26,7 @@ const Tryforfree = () => {
               lorem ipsum dolor sit amet ninium
             </p>
             <div className="md:mx-0 md:mr-auto">
-              <button className=" p-3 bg-success-200 rounded-xl text-gray-900 hover:bg-success-500 hover:text-white transition">
+              <button className=" p-3 bg-blue-100 rounded-xl text-gray-900 hover:bg-blue-300 font-semibold hover:text-white transition">
                 Get started
               </button>
             </div>

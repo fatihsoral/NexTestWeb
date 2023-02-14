@@ -5,24 +5,24 @@ import React from 'react'
 const Header = () => {
   const router = useRouter()
   return (
-    <div className="lg:px-20 lg:py-5 flex justify-between  px-4 py-[10px] items-center">
+    <div className="lg:px-20 lg:py-5 flex justify-between  px-4 py-[10px] items-center bg-white sticky top-0 z-30">
       <div className="">
-        <img className="bg-white pr-2 rounded-xl" src="logo-section.svg" />
+        <img src="logo-section.svg" />
       </div>
       <div className="flex gap-5 items-center">
         <Link
-          className="text-center text-sm text-blue-100 hover:text-blue-300"
+          className="text-center text-sm text-black hover:text-blue-300"
           href={'#'}
         >
           <span className="md:block hidden">About</span>
         </Link>
         <Link
-          className="md:block text-center text-sm text-blue-100 hover:text-blue-300"
+          className="md:block text-center text-sm text-black hover:text-blue-300"
           href={'#'}
         >
           <span className="md:block hidden">Contact</span>
         </Link>
-        <button className="block text-center text-sm text-blue-100 hover:text-blue-300">
+        <button className="block text-center text-sm text-black hover:text-blue-300">
           Sign in
         </button>
 

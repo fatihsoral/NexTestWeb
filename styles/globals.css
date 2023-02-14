@@ -5,12 +5,13 @@
 .body {
   background-color: rgb(1, 23, 71);
 }
-.skew-bg-silver {
-  position: absolute;
-  right: 0;
-  z-index: -10;
-  width: 100%;
-  height: 100%;
-  border-radius: 80px;
-  background-image: linear-gradient(rgb(232, 239, 252), rgb(153, 186, 255));
+
+.App {
+  font-family: 'Lexend Deca', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
 }
