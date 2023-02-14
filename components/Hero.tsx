@@ -46,20 +46,11 @@ const Hero = () => {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit natus.
         </motion.p>
-        <motion.div
-          initial={{ scale: 2 }}
-          animate={{ rotate: 360, scale: 1 }}
-          transition={{
-            type: 'spring',
-            stiffness: 260,
-            damping: 20,
-          }}
-          className="lg:pt-3 pt-1"
-        >
+        <div className="lg:pt-3 pt-1">
           <button className="p-3 bg-blue-100 rounded-xl text-black hover:bg-blue-300 hover:text-white transition font-semibold">
             Try for free
           </button>
-        </motion.div>
+        </div>
       </div>
     </div>
   )
