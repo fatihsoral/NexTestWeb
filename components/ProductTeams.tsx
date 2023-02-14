@@ -132,7 +132,7 @@ const ProductTeams = () => {
               </motion.div>
             </div>
           </div>
-          <div className="md:grid hidden md:grid-cols-3 pb-44 lg:pt-44 text-white">
+          <div className="lg:grid hidden lg:grid-cols-3 pb-44 lg:pt-44 text-white">
             <motion.div
               initial="offscreen"
               whileInView="onscreen"
