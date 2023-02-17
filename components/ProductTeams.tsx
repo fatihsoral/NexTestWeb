@@ -66,9 +66,9 @@ const ProductTeams = () => {
                 variants={cardVariants}
                 style={{ y: parallax }}
                 viewport={{ once: true, amount: 0.8 }}
-                className="px-6 md:px-12 pb-12 pt-28 lg:pt-60  bg-blue-300 rounded-xl relative overflow-hidden max-w-xs md:max-w-none "
+                className="px-6 md:px-12 pb-12 pt-28 lg:pt-60  bg-blue-300 hover:bg-blue-100 rounded-xl relative overflow-hidden max-w-xs md:max-w-none group "
               >
-                <div className="border-[58px] w-[413px] h-[413px] lg:w-[714px] lg:h-[714px] rounded-full absolute border-blue-100 lg:right-28 lg:top-36 right-6 top-28"></div>
+                <div className="border-[58px] w-[413px] h-[413px] lg:w-[714px] lg:h-[714px] rounded-full absolute border-blue-100 group-hover:border-blue-300 lg:right-28 lg:top-36 right-6 top-28"></div>
                 <p className="text-2xl md:text-3xl text-black font-medium pb-2 relative">
                   Step 1
                 </p>
@@ -83,9 +83,9 @@ const ProductTeams = () => {
                 variants={cardVariants}
                 style={{ y: parallax }}
                 viewport={{ once: true, amount: 0.8 }}
-                className="px-6 md:px-12 pb-12  pt-28 lg:pt-60 bg-blue-100 rounded-xl relative overflow-hidden max-w-xs md:max-w-none"
+                className="px-6 md:px-12 pb-12  pt-28 lg:pt-60 bg-blue-100 hover:bg-blue-300 rounded-xl relative overflow-hidden max-w-xs md:max-w-none group"
               >
-                <div className="border-[58px] w-[413px] h-[413px] lg:w-[714px] lg:h-[714px] rounded-full absolute border-blue-300 lg:bottom-16 lg:right-64 bottom-16 right-32"></div>
+                <div className="border-[58px] w-[413px] h-[413px] lg:w-[714px] lg:h-[714px] rounded-full absolute border-blue-300 group-hover:border-blue-100 lg:bottom-16 lg:right-64 bottom-16 right-32"></div>
                 <p className="text-2xl md:text-3xl text-black font-medium pb-2 relative">
                   Step 3
                 </p>
@@ -102,9 +102,9 @@ const ProductTeams = () => {
                 variants={cardVariants}
                 style={{ y: parallax }}
                 viewport={{ once: true, amount: 0.8 }}
-                className="px-6 md:px-12 pb-12  pt-28 lg:pt-60 bg-blue-100 rounded-xl relative overflow-hidden max-w-xs md:max-w-none"
+                className="px-6 md:px-12 pb-12  pt-28 lg:pt-60 bg-blue-100 hover:bg-blue-300 rounded-xl relative overflow-hidden max-w-xs md:max-w-none group"
               >
-                <div className="border-[58px] w-[413px] h-[413px] lg:w-[714px] lg:h-[714px] rounded-full absolute border-blue-300 lg:left-64 lg:top-24 top-16 left-20"></div>
+                <div className="border-[58px] w-[413px] h-[413px] lg:w-[714px] lg:h-[714px] rounded-full absolute border-blue-300 group-hover:border-blue-100 lg:left-64 lg:top-24 top-16 left-20"></div>
                 <p className="text-2xl md:text-3xl text-black font-medium pb-2 relative">
                   Step 2
                 </p>
@@ -119,9 +119,9 @@ const ProductTeams = () => {
                 variants={cardVariants}
                 style={{ y: parallax }}
                 viewport={{ once: true, amount: 0.8 }}
-                className="px-6 md:px-12 pb-12  pt-28 lg:pt-60 bg-blue-300 rounded-xl relative overflow-hidden max-w-xs md:max-w-none"
+                className="px-6 md:px-12 pb-12  pt-28 lg:pt-60 bg-blue-300 hover:bg-blue-100 rounded-xl relative overflow-hidden max-w-xs md:max-w-none group"
               >
-                <div className="border-[58px] w-[413px] h-[413px] lg:w-[714px] lg:h-[714px] rounded-full absolute border-blue-100 lg:bottom-16 lg:left-16 bottom-32 left-9"></div>
+                <div className="border-[58px] w-[413px] h-[413px] lg:w-[714px] lg:h-[714px] rounded-full absolute border-blue-100 group-hover:border-blue-300 lg:bottom-16 lg:left-16 bottom-32 left-9"></div>
                 <p className="text-2xl md:text-3xl text-black font-medium pb-2 relative">
                   Step 4
                 </p>
