@@ -5,8 +5,8 @@ const Footer = () => {
     <div className=" bg-gray-100 pt-10">
       <div className="container mx-auto">
         <div className=" lg:mx-20">
-          <div className="text-gray-900">
-            <img src="/logo.svg" />
+          <div>
+            <img className="w-2/12" src="/Nexttest-footer.svg" />
           </div>
           <p className="text-sm md:text-base text-gray-600 pt-9 lg:pt-12 max-w-[540px] pb-12 lg:pb-44 border-b">
             Lorem ipsum dolor sit amet consectetur. Fermentum duis aliquet
